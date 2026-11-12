@@ -860,6 +860,12 @@ minetest.register_node("gloopblocks:fence_steel", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
+
+if not core.get_modpath("nyancat") then
+	core.register_alias("nyancat:nyancat_rainbow", "gloopblocks:rainbow_block_horizontal")
+	core.register_alias("default:nyancat_rainbow", "gloopblocks:rainbow_block_horizontal")
+end
+
 -- These are dummy calls to S() for the translation updater script.
 -- To update this list, add this code to my_stairs_register_stair_and_slab function:
 -- for _, x in ipairs({"", "Inner ", "Outer "}) do print(("S(%q)"):format(x .. desc_stair)) end
