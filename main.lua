@@ -165,7 +165,6 @@ minetest.register_node("gloopblocks:concrete_sidewalk", {
 })
 
 
-minetest.register_alias("moreblocks:oerkkiblock", "gloopblocks:oerkki_block")
 minetest.register_alias("gloopblocks:obsidian", "default:obsidian")
 
 -- Nodes imported from Usesdirt ================================================================================
@@ -860,9 +859,6 @@ minetest.register_node("gloopblocks:fence_steel", {
 	groups = {choppy = 2, oddly_breakable_by_hand = 2 },
 	sounds = default.node_sound_stone_defaults(),
 })
-
-minetest.register_alias("nyancat:nyancat_rainbow", "gloopblocks:rainbow_block_horizontal")
-minetest.register_alias("default:nyancat_rainbow", "gloopblocks:rainbow_block_horizontal")
 
 -- These are dummy calls to S() for the translation updater script.
 -- To update this list, add this code to my_stairs_register_stair_and_slab function:
