@@ -111,7 +111,7 @@ if minetest.settings:get_bool("gloopblocks_lava_damage") then
 
 		["basic_materials:cement_block"] = "basic_materials:concrete_block",
 		["bedrock:deepstone"]            = "default:stone",
-		["building_blocks:hardwood"]     = "default:coalblock",
+		["building_blocks:hardwood"]     = "gloopblocks:ash_block",
 		["building_blocks:Tar"]          = "gloopblocks:pavement",
 		["bushes:basket_empty"]          = "gloopblocks:ash_pile",
 		["bushes:basket_blackberry"]     = "gloopblocks:ash_pile",
@@ -128,8 +128,8 @@ if minetest.settings:get_bool("gloopblocks_lava_damage") then
 	}
 
 	gloopblocks.lava_damage_groups = {
-		["wood"]   = "default:coalblock",
-		["tree"]   = "default:coalblock",
+		["wood"]   = "gloopblocks:ash_block",
+		["tree"]   = "gloopblocks:ash_block",
 		["soil"]   = "gloopblocks:basalt",
 		["leaves"] = "gloopblocks:ash_pile",
 		["fence"]  = "gloopblocks:ash_pile",
